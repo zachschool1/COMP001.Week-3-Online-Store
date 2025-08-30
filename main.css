@@ -31,7 +31,16 @@ main{
     border-radius: 9%;
 }
 footer {
-    position:absolute;
+    position:fixed;
     bottom:0;
     width:100%;
+}
+
+.product {
+    border: 1px dotted black;
+}
+.product img{
+    max-height: 250px;
+    max-width: auto;
+    object-fit: contain;
 }
