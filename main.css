@@ -20,4 +20,18 @@ header {
 h2 {
     text-align: center;
 }
-
+main{
+    width:100%;
+}
+.contact {
+    padding-left: 10%;
+    padding-right: 10%;
+    min-width: 300px;
+    border: 2px black solid;
+    border-radius: 9%;
+}
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
