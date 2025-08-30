@@ -5,6 +5,10 @@ body{
     background-color: burlywood;
     margin:5%;
     text-align:center;
+    border: 2px groove black;
+    padding: 20px 10px 20px 10px;
+    min-height:80vh;
+    
 }
 
 nav{
@@ -24,20 +28,24 @@ main{
     width:100%;
 }
 .contact {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 5% 20% 5% 20%;
     min-width: 300px;
     border: 2px black solid;
     border-radius: 9%;
 }
 footer {
-    position:fixed;
+    position:static;
     bottom:0;
     width:100%;
+
 }
 
+.list {
+    text-align:left; 
+}
 .product {
     border: 1px dotted black;
+    margin: 5% 10% 5% 10%;
 }
 .product img{
     max-height: 250px;
